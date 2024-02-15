@@ -1,0 +1,13 @@
+[
+    {
+        "id": "tul_example_service",
+		"product": "Core",
+		"component": "cert_mgmt",
+        "dist": {
+            "method": "aws",
+            "readonly_iam_role": "arn:aws:iam::123456789:role/tul-aws-service-secret-access"
+        },
+        "rotate_days": "30",
+        "domains": ["tul-example-service.ppops.net", "tul-example-service-2.ppops.net"]
+    }
+]
