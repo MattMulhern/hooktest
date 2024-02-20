@@ -19,3 +19,5 @@ jobs:
         uses: actions/checkout@v4
       - name: check env
         run: env
+      - name: check event
+        run: cat $GITHUB_EVENT_PATH
